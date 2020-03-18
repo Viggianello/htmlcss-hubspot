@@ -22,9 +22,12 @@
     display: table;
     content: '';
 }
+#prima-pagina{
+    height: 100vh;
+}
 
 #header-top{
-    height: 120px;
+    height: 15vh;
     background-color: grey;
 }
 
@@ -42,7 +45,7 @@
     background-color: green;
 }
 #header-bottom{
-    height: 120px;
+    height: 15vh;
     background-color: red;
 }
 
@@ -60,12 +63,48 @@
     background-color: purple;
 }
 
-#features{
-    height: 500px;
+#sotto-header{
+    height: 70vh;
     background-color: lightcoral;
+    box-shadow: inset 0 11px 8px -10px rgba(51,71,91,0.12);
+}
+#img-no{
+    padding-top: 9%;
+    height: 100%;
+    width: 30%;
+    background-color: gold;
 }
 
-footer{
-    height: 200px;
-    background-color: darkblue;
+#img-no h1{
+    height: 20%;
+    background-color: darkgreen;
 }
+
+#img-no p{
+    height: 20%;
+background-color: white;
+}
+
+#img-no button{
+    height: 10%;
+    width: 40%;
+background-color: red;
+}
+
+#seconda-pagina{
+    height: 100vh;
+    background-color: #f5f8fa;
+}
+
+#terza-pagina{
+    height: 100vh;
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+#quarta-pagina{
+    height: 100vh;
+    background-color: #fff;
+    }
+#quinta-pagina{
+    height: 90vh;
+    background-color: darkblue;
+    }
