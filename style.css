@@ -30,6 +30,11 @@
     text-align: center;
     color: white;
 }
+
+a{
+    text-decoration-line: none;
+}
+
 #prima-pagina{
     height: 100vh;
 }
@@ -37,8 +42,8 @@
 #header-top{
     position: fixed;
     width: 100%;
-    height: 15vh;
-    background-color: grey;
+    height: 80px;
+    background-color: #f5f8fa;
 }
 
 #header-top-left{
@@ -46,6 +51,16 @@
    height: 100%;
    float: left;
    background-color: yellow;
+   padding-top: 3%;
+}
+
+#header-top-left a{
+    float: left;
+    color: #33475b;
+    border-right: 1px solid #cbd6e2;
+}
+#header-top-left span a{
+    padding-left: 5%;
 }
 
 #header-top-right{
@@ -53,9 +68,11 @@
     height: 100%;
     float: left;
     background-color: green;
+    padding-top: 3%;
 }
 #header-bottom{
-    padding-top: 30vh;
+    padding-top: 80px;
+    height: 160px;
     background-color: red;
 }
 #header-bottom-left{
@@ -86,6 +103,7 @@
 #img-no h1{
     height: 20%;
     background-color: darkgreen;
+    color: #33475b;
 }
 
 #img-no p{
