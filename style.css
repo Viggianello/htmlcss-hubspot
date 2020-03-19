@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 1080px;
+    width: 78vw;
     margin: auto;
     height: 100%;
 }
@@ -25,7 +25,7 @@
 .button{
     border-radius: .1875rem;
     background-color: #ff7a59;
-    width: 100%;
+    width: 12%;
     display: inline-block;
     text-align: center;
     color: white;
@@ -35,6 +35,8 @@
 }
 
 #header-top{
+    position: fixed;
+    width: 100%;
     height: 15vh;
     background-color: grey;
 }
@@ -53,17 +55,15 @@
     background-color: green;
 }
 #header-bottom{
-    height: 15vh;
+    padding-top: 30vh;
     background-color: red;
 }
-
 #header-bottom-left{
    width: 30%;
    height: 100%;
    float: left;
    background-color: blue;
 }
-
 #header-bottom-right{
     width: 70%;
     height: 100%;
@@ -127,6 +127,11 @@ background-color: red;
 #test-dx-top .button{
 
 }
+
+#test-dx-bottom p{
+
+}
+
 
 #terza-pagina{
     height: 100vh;
