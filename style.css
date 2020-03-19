@@ -29,10 +29,9 @@
     text-align: center;
     color: white;
 }
-img
-{
-    height: 50px;
-    width: 10px;
+img{
+    height: 30px;
+    width: 30px;
     padding-bottom: 7%;
     float: left;
 }
@@ -70,9 +69,8 @@ a{
 }
 
 #header-top-right{
-    width: 50%;
     height: 100%;
-    float: left;
+    float: right;
     /* background-color: green; */
 }
 #header-top-right a{
@@ -83,8 +81,8 @@ a{
     font-size: 11px;
 }
  .linea{
+     padding-top: 15px;
      display: inline-block;
-     padding-bottom: 7%;
      text-align: center;
  }
 
@@ -126,9 +124,8 @@ width: 90px;
 
 }
 #header-bottom-right{
-    width: 70%;
+    float: right;
     height: 100%;
-    float: left;
     /* background-color: purple; */
 }
 
