@@ -119,11 +119,24 @@ hr{
    float: left;
    /* background-color: blue; */
 }
+#header-bottom-left img{
+    margin-top: 13px;
+height: 90px;
+width: 90px;
+
+}
 #header-bottom-right{
     width: 70%;
     height: 100%;
     float: left;
     /* background-color: purple; */
+}
+
+#header-bottom-right a{
+    display: inline;
+    float: left;
+    padding-right: 30px;
+    padding-top: 40px;
 }
 
 #sotto-header{
