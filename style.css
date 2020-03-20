@@ -137,14 +137,14 @@ hr{
 }
 
 #sotto-header{
-    height: 70vh;
+    height: 80vh;
     box-shadow: inset 0 11px 8px -10px rgba(51,71,91,0.12);
     background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
     border-bottom: 3px solid #33475b;
 }
 #img-no{
     padding-top: 9%;
-    height: 100%;
+    /* height: 100%; */
     width: 30%;
     /* background-color: gold; */
     color: #33475b;
@@ -171,14 +171,20 @@ hr{
 /* fine prima pagina */
 #seconda-pagina{
     height: 100vh;
+    padding-top: 80px;
     background-color: #f5f8fa;
 }
-
+#seconda-pagina .container{
+padding-top: 50px;
+}
 #test-sx-top{
     width: 30%;
     float: left;
-    height: 20%;
+    /* height: 20%; */
     background-color: grey;
+}
+#test-sx-top h1{
+    font-size: 40px;
 }
 #test-dx-top{
     margin-top: 2%;
@@ -190,7 +196,9 @@ hr{
     background-color: white;
     margin-bottom: 2%;
 }
-
+#seconda-pagina{
+    background-color: #f5f8fa;
+}
 #test-dx-top .li{
     display: inline-block;
 }
