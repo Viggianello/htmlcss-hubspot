@@ -164,35 +164,38 @@ hr{
 }
 /* fine prima pagina */
 /* inizio seconda pagina */
+#seconda-pagina {
+    box-shadow: inset 0 11px 8px -10px rgba(51,71,91,0.12);
+    background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
+}
 
 #seconda-pagina .container{
 padding-top: 80px;
-box-shadow: inset 0 11px 8px -10px rgba(51,71,91,0.12);
-background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
 }
 
 #test-sx-top{
-    width: 30%;
-    float: left;
+    /* width: 30%; */
+    /* float: left; */
 }
 #test-sx-top h1{
     font-size: 40px;
 }
 #test-sx-bottom{
-    width: 30%;
-    float: left;
+    /* width: 30%; */
+    /* float: left; */
     background-color: white;
     padding: 8px;
 }
 #test-dx-top{
     padding-top: 4%;
     padding-left: 2%;
-    width: 70%;
+    /* width: 70%; */
     background-color: white;
     margin-bottom: 2%;
+    border: 2px solid black;
 }
 
-#test-dx-top .li{
+#test-dx-top li{
     display: inline-block;
 }
 #test-dx-top .button{
@@ -200,7 +203,8 @@ background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
 }
 
 .effetto:hover{
-    padding: 30px;
+    box-shadow: 0 11px 8px -10px rgba(51,71,91,1);
+
 }
 
 
