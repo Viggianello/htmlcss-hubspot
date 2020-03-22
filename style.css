@@ -171,6 +171,7 @@ hr{
 
 #seconda-pagina .container{
 padding-top: 80px;
+padding-bottom: 80px;
 }
 
 #test-sx-top{
@@ -209,8 +210,10 @@ padding-top: 80px;
 #test-dx-top p{
     font-size: 20px;
 }
-#test-dx-top h4{
+/* #test-dx-top  */
+h4{
     padding-top: 12px;
+    font-size: 14px;
 }
 
 #test-dx-top li{
@@ -228,7 +231,7 @@ float:left;
 width: 30%;
 padding-right: 2%;
 background-color: white;
-border: 2px solid black;
+/* border: 2px solid black; */
 /* padding: 8px; */
 }
 
@@ -239,7 +242,7 @@ border: 2px solid black;
     margin-left: 1.5%;
     background-color: white;
     /* padding: 8px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 #test-dx-bottom{
@@ -247,17 +250,62 @@ border: 2px solid black;
     width: 33%;
     background-color: white;
     /* padding: 8px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 h3{
     padding-bottom: 10px;
 }
 
+#seconda-pagina-parte-inferiore li{
+    padding-left: 15px;
+}
 
+#seconda-pagina-parte-inferiore .button{
+    margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* fine seconda pagina- inizio terza */
 #terza-pagina{
-    height: 100vh;
+    /* height: 100vh; */
+    padding-top: 80px;
     background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    color: white;
+}
+#terza-pagina .container{
+    /* border: 2px solid black; */
+}
+#text-top-center-terza-pagina{
+    /* width: 100%;
+    text-align: center; */
+}
+
+#terza-pagina h2{
+    /*padding-left: 90px;
+    font-weight: 700;
+    width: 56%; */
+    float: left;
+    padding-top: 60px;
+    padding-left: 300px;
+    font-weight: 700;
+    width: 74%;
+}
+
+#terza-pagina p{
+    float: left;
+    padding-top: 18px;
+    padding-left: 90px;
+    font-size: 14px;
+    /* text-align: center; */
+    padding-left: 300px;
+    /* background-color: gold; */
+    width: 74%;
+}
+#parte-tabella{
+    padding-top: 60px;
+    float: left;
 }
 #quarta-pagina{
     height: 100vh;
