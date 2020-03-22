@@ -303,9 +303,36 @@ h3{
     /* background-color: gold; */
     width: 74%;
 }
-#parte-tabella{
+#parte-tabella-primariga{
     padding-top: 60px;
     float: left;
+}
+#parte-tabella-secondariga{
+    /* padding-top: 60px; */
+    float: left;
+}
+.bordertab{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    /* border-top: none; */
+}
+.lineatab{
+    display: inline-block;
+}
+.flosx{
+    float:left;
+}
+.flodx{
+    float: right;
+}
+.noborderbottom{
+border-bottom: none;
+}
+.noborderright{
+    border-right: none;
+}
+#tabella{
+    padding-left: 50%;
 }
 #quarta-pagina{
     height: 100vh;
