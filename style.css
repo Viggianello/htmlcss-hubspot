@@ -174,39 +174,60 @@ padding-top: 80px;
 }
 
 #test-sx-top{
-    /* width: 30%; */
-    /* float: left; */
+    width: 30%;
+    float: left;
 }
 #test-sx-top h1{
     font-size: 40px;
 }
 #test-sx-bottom{
-    /* width: 30%; */
-    /* float: left; */
+    width: 30%;
+    float: left;
     background-color: white;
     padding: 8px;
 }
-#test-dx-top{
+
+/* .effetto:hover{
+    box-shadow: 10px 10px 10px 10px rgba(51,71,91,0.12);
+    padding: 5px;
+} */
+#text-dx-top-effetto:hover {
+    /* background-color: rgba(51,71,91,0.12);
+    background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee); */
+    box-shadow: 12px 10px 10px 12px rgba(51,71,91,0.12);
+    width: 70%;
+    /* height: 330px; */
+}
+#text-dx-top-effetto{
+    width: 69%;
+    /* height: 300px; */
+    float: left;
     padding-top: 4%;
     padding-left: 2%;
-    /* width: 70%; */
     background-color: white;
-    margin-bottom: 2%;
-    border: 2px solid black;
+}
+#test-dx-top{
+    /* width: 70%; */
+    float: left;
+    background-color: white;
+    /* border: 2px solid black; */
+}
+#test-dx-top p{
+    font-size: 20px;
+}
+#test-dx-top h4{
+    padding-top: 12px;
 }
 
 #test-dx-top li{
+    padding-top: 12px;
     display: inline-block;
+    float: left;
 }
 #test-dx-top .button{
-
+float: right;
+margin: 25px;
 }
-
-.effetto:hover{
-    box-shadow: 0 11px 8px -10px rgba(51,71,91,1);
-
-}
-
 
 
 
